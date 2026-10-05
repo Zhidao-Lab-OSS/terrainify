@@ -1,0 +1,21 @@
+# 源视频不入库：版权归原作者，请自行准备（见 README 示例章节）
+*.mp4
+
+# analyze 中间产物（可由 analyze 重新生成）
+*_counts.npy
+*_stats.json
+/counts_*.npy
+/stats.json
+
+# 渲染输出与封面产物
+/output/
+*_cover.jpg
+orig_cover.jpg
+
+# 个人发布物料
+PUBLISH.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
